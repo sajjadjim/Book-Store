@@ -1,4 +1,4 @@
-# [Project Name]
+# Book Store
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![React](https://img.shields.io/badge/React-19-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -77,7 +77,7 @@ Ensure you have the following installed:
 ├── components/           # Reusable UI components
 ├── lib/                  # Utility functions and libraries
 └── styles/               # Global styles
-
+```
 📜 Scripts
 ```bash
 npm run dev: Starts the development server.
@@ -92,7 +92,7 @@ npm run lint: Runs the linter to catch code errors.
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
-
+```bash
 Create a new branch (git checkout -b feature/YourFeature).
 
 Commit your changes (git commit -m 'Add some feature').
@@ -100,7 +100,7 @@ Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature/YourFeature).
 
 Open a Pull Request.
-
+```
 ☁️ Deploy
 The easiest way to deploy your Next.js app is to use the Vercel Platform.
 
