@@ -148,7 +148,7 @@ export default function BooksSection({ onAddToCart }) {
         {!loading && (
           <p className="text-slate-500 text-sm mb-6">
             Showing <span className="font-semibold text-slate-700">{books.length}</span> books
-            {search && <> for "<span className="text-amber-600">{search}</span>"</>}
+            {search && <> for &ldquo;<span className="text-amber-600">{search}</span>&rdquo;</>}
           </p>
         )}
 

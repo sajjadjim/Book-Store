@@ -30,7 +30,7 @@ export default function Hero({ onBrowseClick }) {
   useEffect(() => {
     const timer = setInterval(() => setCurrentSlide((p) => (p + 1) % slides.length), 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   const slide = slides[currentSlide];
 
